@@ -1,5 +1,3 @@
-# background-remover
-
 # Background Remover Repository
 
 # Description:
@@ -17,7 +15,7 @@ streamlit
 step to run:
 
 1.clone the repo into your local \
-2.python streamlit -run bg_remover.py \
+2.python streamlit -run bg_remover.py 
 
 # Do feel free to use 
 
