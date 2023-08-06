@@ -4,7 +4,6 @@ import streamlit as st
 from PIL import Image
 from rembg import remove
 
-
 st.set_page_config(layout="wide", page_title="Image Background Remover")
 st.write("## Remove background from image using live camera or upload image ")
 st.sidebar.write("## Upload and download :gear:")
