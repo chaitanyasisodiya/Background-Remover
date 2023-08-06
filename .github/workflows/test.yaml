@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Super -linter
-        uses: github/super-linter@4.9.5
+        uses: github/super-linter@5.2.0
         env: 
           DEFAULT_BRANCH: main
  
