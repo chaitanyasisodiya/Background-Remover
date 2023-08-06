@@ -24,18 +24,24 @@ def fix_image(upload):
     fixed = remove(image)
     col2.write("Fixed Image :wrench:")
     col2.image(fixed)
-    st.sidebar.markdown("\n")
-    st.sidebar.download_button("Download fixed image", convert_image(fixed), "fixed.png", "image/png")
+    st.sidebar.markdown("")
+    
+    st.sidebar.download_button(
+        "Download fixed image", convert_image(fixed), "fixed.png", "image/png"
+    )
 
 
 col1, col2 = st.columns(2)
 my_upload = st.sidebar.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+
 pic = st.camera_input('Take a picture')
 if pic:
+    
     with open('test.jpg', 'wb') as file:
         file.write(pic.getbuffer())
 
 if my_upload is not None:
     fix_image(upload=my_upload)
 else:
+
     fix_image("./test.jpg")

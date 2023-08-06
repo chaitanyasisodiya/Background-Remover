@@ -1,6 +1,7 @@
 
 
-# Background Remover Repository Description:
+# Background Remover Repository Description
+
 
 This Background remove repository is used to remove Background from your images, or you can used your local camera to capture the photo of yourself.
 
