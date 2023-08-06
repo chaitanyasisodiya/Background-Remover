@@ -16,9 +16,9 @@ streamlit
 
 step to run:
 
-1.clone the repo into your local 
-2.python streamlit -run bg_remover.py
+1.clone the repo into your local \
+2.python streamlit -run bg_remover.py \
 
-# do feel free to use 
+# Do feel free to use 
 
  
